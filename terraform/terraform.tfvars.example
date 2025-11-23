@@ -1,0 +1,16 @@
+# AWS Configuration
+aws_region   = "us-east-1"
+project_name = "poc-swfaws"
+
+# SWF Configuration
+swf_domain_name = "business-process-domain"
+swf_task_list   = "business-process-tasks"
+retention_days  = 30
+
+# Tags
+tags = {
+  Project     = "poc-swfaws"
+  Environment = "dev"
+  ManagedBy   = "Terraform"
+  Team        = "DevOps"
+}
